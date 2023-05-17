@@ -1,4 +1,4 @@
-export const Obj_Of_An_Arr_Of_Objs = {
+const Obj_Of_An_Arr_Of_Objs = {
     Drinks:[
         {name:'Ballantines', disc:'A range of blended Scotch whiskies produced by Pernod Ricard in Dumbarton', prc:'35000'},
         {name:'Coffee Service', disc:'Includes coffee buffet station with all the accompliments (sugar, cream, syrup)', prc:'18750'},
@@ -16,7 +16,7 @@ export const Obj_Of_An_Arr_Of_Objs = {
     ]
 }
 
-export const Arr_Of_Objs = [
+const Arr_Of_Objs = [
     {name:'Ballantines', disc:'A range of blended Scotch whiskies produced by Pernod Ricard in Dumbarton', prc:'35000'},
     {name:'Coffee Service', disc:'Includes coffee buffet station with all the accompliments (sugar, cream, syrup)', prc:'18750'},
     {name:'Soft Drinks', disc:'Includes drinks such as Coke, Spirit, 7-Up, Teem, Pepsi, Malt', prc:'30000'},

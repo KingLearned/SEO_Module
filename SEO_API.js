@@ -1,5 +1,3 @@
-import { Obj_Of_An_Arr_Of_Objs, Arr_Of_Objs } from './DataBase'
-
 const SEO_API = (DataBase, SearchData) => {
     const SearchResult = []
 
@@ -16,7 +14,6 @@ const SEO_API = (DataBase, SearchData) => {
 
         }
     }else{ //For Array of an Object
-
         DataBase.forEach(EachElement => {
             for(SubKey in EachElement){
                 
@@ -26,10 +23,10 @@ const SEO_API = (DataBase, SearchData) => {
                 }
             }
         }) 
-
     }
 
     return SearchResult
 }
 
-const TestModule = SEO_API(Obj_Of_An_Arr_Of_Objs, '350000');
+const TestModule = SEO_API(Obj_Of_An_Arr_Of_Objs, '3000')
+console.log(TestModule)
