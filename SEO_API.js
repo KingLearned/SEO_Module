@@ -27,6 +27,3 @@ const SEO_API = (DataBase, SearchData) => {
 
     return SearchResult
 }
-
-const TestModule = SEO_API(Obj_Of_An_Arr_Of_Objs, QS.value)
-console.log(TestModule)
