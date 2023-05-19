@@ -53,5 +53,7 @@ const SearchData = 'sit';
 const SearchResult = SEO_API(DataBase, SearchData);
 console.log(SearchResult);
 // Output: [{ name: 'Object 2', description: 'Dolor sit amet' }]
-
 ```
+
+## Author
+This Module was Developed by [Mr. Learned](https://twitter.com/nez_Dking) CEO @ [(LDC) Concepts](https://learnedsconcept.onrender.com)
